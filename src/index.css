@@ -1,5 +1,14 @@
 @import-normalize;
 
+:root {
+  --color-dark-mode-background: hsl(207, 26%, 17%);
+  --color-dark-mode-elements: hsl(209, 23%, 22%);
+  --color-light-mode-background: hsl(0, 0%, 98%);
+  --color-light-mode-elements: hsl(0, 0%, 100%);
+  --color-light-mode-text: hsl(200, 15%, 8%);
+  --color-light-mode-input: hsl(0, 0%, 52%);
+}
+
 html {
   font-size: 62.5%;
 }

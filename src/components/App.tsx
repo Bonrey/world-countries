@@ -1,7 +1,15 @@
-function App() {
+import Header from './header/Header';
+import Content from './Content';
+import ThemeToggle from './header/ThemeToggle';
+
+const App = () => {
   return (
-    <div>Hello, World! (Really!)</div>
+    <>
+      <ThemeToggle />
+      {/* <Header /> */}
+      {/* <Content /> */}
+    </>
   );
-}
+};
 
 export default App;
