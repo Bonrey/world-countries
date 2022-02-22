@@ -1,6 +1,6 @@
 {
-  "editor.fontSize": 16,
-  "css.lint.unknownAtRules": "ignore",
+  "editor.fontSize": 14,
+  "scss.lint.unknownAtRules": "ignore",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"

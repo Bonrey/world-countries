@@ -1,0 +1,11 @@
+.App {
+  background-color: var(--color-light-mode-background);
+  color: var(--color-light-mode-text);
+  transition: background-color 0.3s, color 0.3s;
+
+  &_dark {
+    background-color: var(--color-dark-mode-background);
+    // FIXME: add the corresponding variable
+    color: var(--color-light-mode-elements);
+  }
+}

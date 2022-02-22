@@ -1,0 +1,19 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-light-mode-background);
+  padding: 1.5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: background-color 0.3s;
+
+  &_dark {
+    background-color: var(--color-dark-mode-background);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    padding: 2.5rem 3rem;
+  }
+}

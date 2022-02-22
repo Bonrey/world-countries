@@ -1,4 +1,4 @@
-@import-normalize;
+$mobile-breakpoint: 768px;
 
 :root {
   --color-dark-mode-background: hsl(207, 26%, 17%);
@@ -7,13 +7,4 @@
   --color-light-mode-elements: hsl(0, 0%, 100%);
   --color-light-mode-text: hsl(200, 15%, 8%);
   --color-light-mode-input: hsl(0, 0%, 52%);
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 1.4rem;
 }
